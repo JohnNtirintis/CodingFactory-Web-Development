@@ -35,15 +35,20 @@
         <select name="nationality" id="nationality">
             <!-- sellected attribute sets it to the default value -->
             <!-- disabled prevents the user from slecting it  -->
-            <option value="" selected disabled>Choose your nationality</option>
+            <!-- Hidden hides it during the selection -->
+            <option value="" selected disabled hidden>Choose your nationality</option>
             <option value="greek">Griego</option>
             <option value="fernando-alonso">FERNANDO ALONSO</option>
             <option value="spain">Spain</option>
         </select>
        </div>
-
-
-
+       <div>
+            <label for="firstname">First Name</label>
+            <!-- Can leave out the <br> element to change format -->
+            <input type="text" name="firstname" id="firstname"><br>
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname">
+       </div>
     </form>
 </body>
 </html>
