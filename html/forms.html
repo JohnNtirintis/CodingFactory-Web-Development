@@ -10,11 +10,40 @@
     <form name="GitHub Form" method="get" action="https://github.com/JohnNtirintis"> 
         <!-- Div groups tags together -->
        <div>
+            <!--Type is the type of input  -->
+            <!-- Name is the type of value -->
+            <!-- Value attribute is the value of the attribute -->
+            <!-- id is used for the label -->
             <input type="radio" name="gender" value="male" id="male">
             <label for="male">Antraklas</label> <br>
+            <!-- the attribute name is the one that differentiates the input and forces the user to only pick on -->
             <input type="radio" name="gender" value="female" id="female">
             <label for="female">Koritsaros</label>
        </div>
+       <div>
+            <input type="checkbox" name="vehicle1" value="bike" id="bicycle">
+            <!-- Pay attention to <br> after the label -->
+            <!-- If its not included it will be displayed in a column instead of a row -->
+            <label for="bicycle">Ducatti</label> <br>
+            <input type="checkbox" name="car1" value="mitsubishi" id="Mitsubishi-Evo">
+            <label for="Mitsubishi-Evo">Mitsubishi Evo</label> <br>
+            <input type="checkbox" name="car1" value="mclaren" id="mclaren-senna">
+            <label for="mclaren-senna">McLaren Senna</label>
+       </div>
+       <div>
+        <label for="nationality">Nationality my Dude</label>
+        <select name="nationality" id="nationality">
+            <!-- sellected attribute sets it to the default value -->
+            <!-- disabled prevents the user from slecting it  -->
+            <option value="" selected disabled>Choose your nationality</option>
+            <option value="greek">Griego</option>
+            <option value="fernando-alonso">FERNANDO ALONSO</option>
+            <option value="spain">Spain</option>
+        </select>
+       </div>
+
+
+
     </form>
 </body>
 </html>
