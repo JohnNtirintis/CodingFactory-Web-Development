@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+</head>
+<body>
+    <h2>Μη ταξινομημενη λιστα</h2>
+    <h2>AKA Un-ordered list</h2>
+    <!-- ul -> unordered list -->
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+    </ul>
+
+    <h2>Ordered list</h2>
+    <!-- type=a Doesnt work for ul -->
+    <!-- There is also the attribute reversed (which obvs reverses the order) -->
+    <!-- ol -> orderedlist -->
+    <ol type="a" >
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Java</li>
+        <li>Magic</li>
+    </ol>
+
+    <h2>Order List again</h2>
+    <ol">
+        <li>CSS</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+
+    <h2>Ordered list with changed starting index</h2>
+    <ol start="10">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+
+    <h2>Ordered list with reversed attribute and changed index</h2>
+    <ol start="10" reversed>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+
+    <h2>Descriptive List</h2>
+
+    <dl>
+        <dt>Formula 1</dt>
+        <dd>Max Verstappen Dominance every sunday.</dd>
+        <dd>Lewis Hamilton.</dd>
+        <dd>Leclerc.</dd>
+        <dt>Formula 1.5</dt>
+        <dd>Alonso</dd>
+    </dl>
+    <!-- having 2 dl tags next to eacher other leaves a space between them -->
+    <dl>
+        <dt>formula 2</dt>
+        <dd>Whatever</dd>
+    </dl>
+
+    <!-- Nested Lists -->
+    <h2>Combination of Lists</h2>
+    <ul>
+        <li>HTML
+            <ol>
+                <li>Tables</li>
+                <li>Forms</li>
+                <li>Images</li>
+            </ol>
+        </li>
+        <li>CSS
+            <ol>
+                <li>Style</li>
+                <li>Boring</li>
+                <li>idk</li>
+            </ol>
+        </li>
+        <li>Javascript
+            <ol>
+                <li>Powerful</li>
+                <li>Interactive</li>
+                <li>Front-end (React.js)</li>
+            </ol>
+        </li>
+    </ul>
+    <h2>Comination of Lists example 2</h2>
+    <dl>
+        <dt>HTLM</dt>
+        <dd>this is my dd
+            <ul>
+                <li>Something</li>
+                <li>Whatever</li>
+                <li>Anything</li>
+            </ul>
+        </dd>   
+
+        <dt>CSS</dt>
+        <dd>css is magic
+            <ul>
+                <li>Nothing to say</li>
+                <li>Again nothing to say</li>
+            </ul>
+        </dd>
+        
+
+    </dl>
+
+
+
+</body>
+</html>
