@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: red;
+    background-color: black;
+}
+
+p, ul{
+    color: blue;
+}
+
+img{
+    width: 800;
+    height: auto;
+}
+
+li{
+    list-style-type: lower-greek;
+}
+
