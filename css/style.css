@@ -7,16 +7,60 @@ h1{
     background-color: black;
 }
 
-p, ul{
-    color: blue;
+.alons.photo{
+    width: 800;
 }
 
-img{
-    width: 800;
+img.alons.photo{
     height: auto;
+}
+
+p.alons-photo{
+    color: blue;
 }
 
 li{
     list-style-type: lower-greek;
 }
 
+#lorem1{
+    color: white;
+}
+
+ul > li {
+    color: red
+}
+
+#lastLorem{
+    color: white;
+}
+
+ul strong {
+    background-color: blue;
+}
+
+ul em{
+    background: yellow;
+}
+
+a:link{
+    color: yellow;
+}
+
+a:visited{
+    color:red;
+}
+
+a:hover{
+    background-color: green;
+}
+
+a:focus{
+    outline:none;
+    background-color: purple;
+}
+
+a:active{
+    background-color: chocolate;
+    color: white;
+}
