@@ -51,13 +51,13 @@ a:visited{
     color:red;
 }
 
-a:hover{
-    background-color: green;
-}
-
 a:focus{
     outline:none;
     background-color: purple;
+}
+
+a:hover{
+    background-color: green;
 }
 
 a:active{
