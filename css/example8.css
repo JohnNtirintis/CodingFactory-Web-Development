@@ -3,10 +3,17 @@
     height: auto;
 }
 
+/* Can take many values 
+    Without the need to be seperated by commas
+*/
 .img-rounded{
     border-radius: 10%;
 }
 
+/* 
+If we only apply border-radius
+It will result in an elliptic shape
+*/
 .img-circle {
 width: 500px;
 height: 500px;
@@ -22,16 +29,40 @@ border-radius: 50%;
 }
 
 .thumbnail:hover {
-    box-shadow: 0px 0px 2px 2px rgb(55,185,230,0.5);
+    box-shadow: -4px 4px 2px 4px rgb(55,185,230,0.5);
 }
 
 .london{
-    height: 800px;
+    width: 400px;
+    height: auto;
     background-color: lightgray;
     background-image: url(../images/london.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+}
 
+.card{
+    width: 400px;
+    border: 1px solid black;
+    box-shadow: 0 0 2px 2px rgb(126, 122, 122, 0.5);
+}
+
+.card-image{
+    width: 100%;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.london-bg{
+    height: 800px;
+    background-color: lightgray;
+    background-image: url('../images/london.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }

@@ -1,0 +1,23 @@
+body{
+    background-color: lightgray;
+}
+
+.gradient-to-right{
+    width: 800px;
+    height: 200px;
+    /* background-color: orange; */
+    background-image: linear-gradient(to right, green 55%, red 45%);
+}
+
+.gradient-to-left-top{
+    width: 800px;
+    height: 200px;
+    background-image: linear-gradient(to left top, green, Red);
+
+}
+
+.gradient-to-top{
+    width: 800px;
+    height: 200px;
+    background-image: linear-gradient(to top, green  60%, rgb(125,146,230,0.4)40%);
+}
