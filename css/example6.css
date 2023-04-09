@@ -1,7 +1,16 @@
+/* 
+Alternative way to import font
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Roboto:wght@300&display=swap');
+*/
+
+  
+
 .cf-title {
     font-family: 'Times New Roman', Times, serif;
     font-size: 2.5rem;
     font-style: oblique;
+    color: #237762;
+    text-align: center;
 }
 
 .cf-text{
@@ -9,4 +18,20 @@
     font-stretch: semi-condensed;
     font-weight: 300;
     line-height: 1.5;
+    
+}
+
+.courses-title {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px red;
+}
+
+.courses-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: rgb(255, 65, 124);
+    text-align: justify;
 }
