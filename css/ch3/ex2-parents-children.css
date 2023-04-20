@@ -1,0 +1,45 @@
+img {
+    width: 400px;
+    height: auto;
+}
+
+ul > li {
+    color: red;
+    border: 1px solid black;
+}
+
+/* Any a tag that is a child of ul
+will be affected by this input */
+ul a:link{
+    color: green;
+}
+
+ul > li:first-child{
+    background-color: blue;
+    color: purple;
+}
+
+ul > li:not(:first-child){
+    background-color: grey;
+    color: green;
+}
+
+img ~ p {
+    background-color: green;
+}
+
+h1 + p {
+    color: red;
+}
+
+h1 + p + p {
+    color: white;
+}
+
+a::before{
+    content: '\1F604'
+}
+
+a::after{
+    content: '\1F603'
+}

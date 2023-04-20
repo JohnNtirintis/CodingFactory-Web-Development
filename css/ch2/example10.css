@@ -1,0 +1,21 @@
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+.cf-wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.socials > .facebook-link:link{
+    text-decoration: none;
+    color: blue;
+    font-size: 30px;
+}
+
+.socials > .fa-linkedin {
+
+    font-size: 30px;
+}

@@ -1,0 +1,12 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: red;
+    text-align: justify;
+}
+
+p {
+    /* Resets its alignment to its default value*/
+    text-align: initial;
+}
+

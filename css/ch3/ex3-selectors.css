@@ -1,0 +1,24 @@
+h2[id], p[id] {
+    background-color: aqua;
+}
+
+a[href='#']{
+    background-color: burlywood;
+}
+
+/* ^= means: starts with an alphanumerical */
+*[class^="info"]{
+    background-color: chartreuse;
+}
+
+/* *= means: to contain the word*/
+*[class*="text"] {
+    color: red;
+}
+
+/* Search for all elements that contain the word title
+    and change their font to italic
+ */
+*[class$="title"]{
+    font-style: italic;
+}
