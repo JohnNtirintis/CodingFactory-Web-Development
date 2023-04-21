@@ -9,6 +9,7 @@ a[href='#']{
 /* ^= means: starts with an alphanumerical */
 *[class^="info"]{
     background-color: chartreuse;
+    border: 3px solid black;
 }
 
 /* *= means: to contain the word*/
@@ -21,4 +22,14 @@ a[href='#']{
  */
 *[class$="title"]{
     font-style: italic;
+}
+
+.margintest{
+    margin: 20px;
+}
+
+.infotext-title{
+    margin-bottom: 100px;
+    padding: 50px;
+
 }
