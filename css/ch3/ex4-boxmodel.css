@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    width: 500px;
+    border: 1px solid black;
+    /* Alings it to the center */
+    margin-left: auto;
+    margin-right: auto;
+    /* Alternative way to align it to the center */
+    /* But it messes up the values in case there is a nother margin for top-bottom */
+    /* margin: 0 auto; */
+}
+
+.container h1 {
+    color: red  ;
+}
+
+.box1 {
+    width: 200px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box2 {
+    width: 200px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid green;
+    text-align: right;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px;
+}
