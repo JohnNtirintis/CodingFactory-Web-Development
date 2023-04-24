@@ -1,0 +1,11 @@
+.header {
+    border: 1px solid black;
+    height: 200px;
+    width: 50vw;
+    background-color: green;
+}
+
+.aueb-img > img {
+    height: calc(80vh - 200px);
+    width: auto;
+}
