@@ -6,6 +6,6 @@
 
 <p>Some of the technologies and skills that will be covered in the web development classes are: </p>
 
-<img src="">
+<img src="./images/CodingFactoryWebDevelopment.png">
 
 
