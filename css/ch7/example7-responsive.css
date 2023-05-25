@@ -1,0 +1,151 @@
+:root {
+    --white: #f9f9f9;
+    --black: #363636;
+    --grey: #85888c;
+    --brown: #762124;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--brown);
+    color: var(--white);
+}
+
+.logo {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links ul {
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: var(--white);
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: var(--grey);
+}
+
+/* Menu icon */
+.hamb {
+    position: absolute;
+    top: .7rem;
+    right: 1rem;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.hamb-line {
+    background-color: var(--white);
+    display: none;
+    height: 2px;
+    position: absolute;
+    width: 30px;
+}
+
+/* Creates a new element before/after the span */
+/* Hamburger menu lines */
+.hamb-line::before,
+.hamb-line::after {
+    background-color: var(--white);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2 ease-out;
+    width: 100%;
+}
+
+.hamb-line::before {
+    top: 5px;
+}
+
+.hamb-line::after {
+    top: -5px;  
+}
+
+.side-menu {
+    display: none;
+}
+
+/* Toggle Menu Icon Hamb */
+.side-menu:checked ~ .navbar-links.active {
+    display: flex;
+}
+
+.side-menu:checked ~ .hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    transition: 1s;
+    top: 0;
+}
+
+.side-menu:checked ~ .hamb .hamb-line::after {
+    transform: rotate(45deg);
+    transition: 1s;
+    top: 0;
+}
+
+.side-menu:checked ~ .hamb .hamb-line{
+    transition: 1s;
+    background: transparent;
+}
+
+@media (max-width: 500px){
+    .hamb-line {
+        display: block;
+    }
+
+    .navbar-links.active {
+        display: none;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+    }
+
+    .navbar-links{
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+        /* background-color: antiquewhite; */
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+}
